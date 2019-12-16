@@ -17,7 +17,10 @@ end
 
 def long_planteer_calls(long_planteer_calls)
   calls.any? do |x|
-    x.length > 4
+  if x.length > 4
+  true 
+else 
+  false
   end
 end
 
