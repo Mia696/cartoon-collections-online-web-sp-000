@@ -22,8 +22,7 @@ def long_planteer_calls(long_planteer_calls)
       answer = false
     end
   end
-    answer
-end
+    
 
 def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
