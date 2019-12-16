@@ -16,7 +16,7 @@ def summon_captain_planet(veggies)# code an argument here
 end
 
 def long_planteer_calls(calls)# code an argument here
-  # Your code here	  calls.any? {|word| word.length > 4}
+  calls.any? {|word| word.length > 4}
 end	
 end
 
