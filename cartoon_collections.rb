@@ -16,10 +16,10 @@ def summon_captain_planet(veggies)# code an argument here
 end
 
 def long_planteer_calls(long_planteer_calls)
-  answer = false
+  answer = true
   long_planteer_calls.each do |call|
     if call.length > 4
-      answer = true
+      answer = false
     end
   end
     answer
